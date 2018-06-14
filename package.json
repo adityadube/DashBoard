@@ -1,20 +1,24 @@
 {
-  "name": "new",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "react-dashboard",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-scripts": "1.1.4",
-    "widget": "0.0.2"
+    "axios": "^0.16.0",
+    "chart.js": "^2.5.0",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-chartjs-2": "^2.0.5",
+    "react-dom": "^15.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "node server.js",
+    "serve-delayed": "node server.js delayresponse"    
   }
 }
